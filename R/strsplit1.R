@@ -1,7 +1,11 @@
 
+#x - string input
+#Then split the string using split method.
+
+
 strsplit1 <- function(x, split) {
-  strsplit(x,  #string input
-           split = split)[[1]] #split the string using split method.
+  strsplit(x,
+           split = split)[[1]]
 
 }
 
